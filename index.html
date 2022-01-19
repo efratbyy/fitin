@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FITIN</title>
+  <style>
+    article {
+      display: inline-block;
+      border: solid;
+      padding: 5px;
+      width: 30%;
+    }
+
+    header {
+
+      color: black;
+      padding: 5px;
+    }
+
+    div {
+      background: linear-gradient(rgb(6, 224, 159), rgb(224, 216, 102), green);
+    }
+
+    body {
+      direction: rtl;
+      margin: 5px;
+      background-image: url("1.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 90px;
+      color: rgb(78, 78, 204);
+      text-shadow: 10px 10px 10px black;
+
+    }
+
+    p {
+      font-weight: bold;
+      color: rgb(182, 78, 185);
+      font-size: 20px
+    }
+
+    a {
+      color: white;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-size: 40px;
+
+    }
+
+    h3 {
+      background-color: rgb(104, 104, 240);
+      height: 60px;
+      width: 600px;
+      text-align: center;
+      font-size: 30px
+    }
+    figure{
+      border: thin solid;
+      display: flex;
+      flex-flow: column;
+      padding: 5px;
+      max-width: 600px;
+      margin: auto;
+    }
+    figcaption{
+      background-color: black;
+      color: white;
+      padding: 3px;
+      text-align: center;
+      font-size: 25px;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <header>
+      <img src="logo.ing.webp" alt="לוגו תמונה">
+      <h1>FIT-IN</h1>
+    </header>
+  </div>
+  <section>
+    <h2>מי אנחנו?</h2>
+    <p>
+      פיטאאין מבשרת מזמין אתכם לחוויית אימון אנרגטית ותוססת על רקע נופי הרי ירושלים. מועדון הכושר הולמס פלייס מבשרת
+      ממוקם בקומה השנייה של קניון הראל, במועדון חדר כושר רחב, מגוון גדול של שיעורי סטודיו החל משיעורים אירוביים ושיעורים
+      לשריפת שומנים ועד שיעורי סטודיו לגוף ולנפש. במועדון הולמס פלייס מבשרת תמצאו גם חדר פילאטיס מכשירים הטוב באזור. אם
+      אורח חיים בריא זה מה שאתם מחפשים, הולמס פלייס מבשרת זה ה-מקום להיות בו
+    </p><br><br><br><br><br><br><br><br><br><br>
+  </section>
+  <figure>
+  <img src="3.jpeg" alt="Gym">
+  <figcaption>Gym in Action</figcaption>
+</figure>
+  <section>
+    <h2 style="color: white; background-color: blueviolet; width: 300px; height: 80px;">השעורים שלנו!</h2>
+    <article>
+      <header>
+        <h3>פילאטיס</h3>
+      </header>
+      <p>
+        מה זה פילאטיס?
+
+      </p>
+      <a href="pilates.html">להמשך קריאה</a>
+    </article>
+    <article>
+      <header>
+        <h3>ספינינג</h3>
+      </header>
+      <p>
+        הרבה סטיגמות יש על ספינינג...
+      </p>
+      <a href="spinning.html">להמשך קריאה</a>
+    </article>
+    <article>
+      <header>
+        <h3>קיקבוקסינג</h3>
+      </header>
+      <p>
+        קיקבוקסינג הוא ענף ספורט ואומנות לחימה
+      </p>
+      <a href="kickboxing.html">להמשך קריאה</a>
+    </article>
+  </section><br><br><br><br>
+  <h2 style="background-color: blueviolet; width: 300px; height: 80px; color:white"><ins>קצת עלינו:</ins></h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/4VqvKkBrVVQ" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe><br><br><br>
+  
+  <form style="background-color: blueviolet;">
+    <label for="first-name">שם פרטי:</label>
+    <input type="text" name="fn" id="first-name">
+
+    <label for="last-name">שם משפחה:</label>
+    <input type="text" name="ln" id="last-name">
+
+    <label for="mail">מייל:</label>
+    <input type="email" name="email" id="email">
+
+    <label for="phone">טלפון:</label>
+    <input type="tel" name="phone" id="phone">
+
+    <label for="sel">שעה נוחה ליצירת קשר:</label>
+    <select name="sel" id="sel">
+      <option value="0"></option>
+      <option value="1">8:00-10:00</option>
+      <option value="2">10:00-12:00</option>
+      <option value="3">12:00-14:00</option>
+      <option value="4">14:00-16:00</option>
+    </select>
+    <label for="date">תאריך:</label>
+    <input type="date" name="date" id="date">
+
+    <h2 style="background-color: blueviolet; font-size: 30px;">מתעניין/נת בשעור:</h2>
+
+    <input type="radio" name="pilates" id="our_lessons">
+    <label for="pilates">פילאטיס</label>
+
+    <input type="radio" name="spinning" id="our_lessons">
+    <label for="spinning">ספינינג</label>
+
+    <input type="radio" name="kickboxing" id="our_lessons">
+    <label for="kickboxing">קיקבוקסינג</label>
+
+    <input type="submit" value="צור קשר">
+
+  </form>
+<div style="background-color: blueviolet; font-size: 30px; text-align: center;">
+  <h2>לשליחת מייל:</h1>
+  <form action="mailto:efratbyy@gmail.com" method="post" enctype="text/plain">
+    שם: <br>
+    <input type="text" name="name" id="mail"><br>
+    מייל: <br>
+    <input type="text" name="mail" id="mail"><br>
+    תוכן ההודעה: <br>
+    <input type="text" name="comment" id="comment" size="50"><br><br>
+    <input type="submit" value="send">
+  </form>
+</div>
+  <footer style="text-align: center;">
+    <p>לפרטים ויצירת קשר התקשר לטלפון מספר <a style="color: black;" href="tel:054-1234567">054-1234567</a></p>
+  </footer>
+</body>
+
+</html>
